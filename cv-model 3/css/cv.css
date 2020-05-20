@@ -1,0 +1,432 @@
+
+ 
+body {
+   
+ 
+    
+    font-size: 16px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #000;
+    
+}
+
+.globalcontainer{
+    background-color: #fff;
+  vertical-align: center;
+border-right: 1px solid black;
+
+
+}
+
+.titles{
+    color: #2B7C91;
+    font-family: 'Arial';
+}
+
+
+.titles b{
+  font-style: italic;
+}
+
+
+
+.sidetitles{
+    color: #EFFBF3;
+    font-family: 'Arial';
+
+}
+
+.email:hover{
+    color: #EFFBF3;;
+}
+ 
+a:link { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+a:visited { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+a:hover { 
+    text-decoration: underline;
+    color: #669933;
+    font-weight: bold;
+}
+ 
+a:active { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+#content {
+    background-color: #eee;
+    width: 960px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    margin: 25px 0px 25px 0px;
+    border: #fff solid 2px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+ 
+/* Header
+--------------------------------------------------- */
+header{
+    background-color: #A2C1C3;
+    
+    height: 15%;
+}
+ 
+ 
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+ 
+p.bus1  {
+    margin: 0px;
+    font-weight: bold;
+    color: #669933;
+}
+ 
+p.edu-info  {
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+    color: #669933;
+}
+ 
+p.edu-info a    {
+    color: #000;
+}
+ 
+p.edu-info a:hover  {
+    color: #669933;
+}
+ 
+p.time  {
+    margin: 0px;
+}
+ 
+p.summary   {
+    margin: 10px 0px 0px 0px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 13px;
+        left: 0;
+        position: absolute;
+        width:100%;
+    }
+    
+    .competences .barres li span {
+        background: #3F3F3F;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 13px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+    }
+
+
+
+
+.icons{
+    font-size: 2em;
+    color: #A2C1C3;
+}
+
+.section1{
+    
+    margin-top: 0;
+}
+.section2{
+    position: relative;
+    margin-top: 400px;
+}
+
+
+body{
+  background-color: #f0f0f0;
+}
+.progress{
+  max-width:1000px;
+  margin: 40px auto;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress-radial, .progress-radial * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+}
+.progress-radial:first-child {
+  margin-left: 4%;
+}
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  font-size: 14px;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress-radial .overlay p{
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    margin-top: -20px;
+}
+
+/* -------------------------------------
+ * Mixin for progress-% class
+ * ------------------------------------- */
+.progress-0 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(0deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(90deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-5 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(342deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(108deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-10 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(324deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(126deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-15 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(306deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(144deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-20 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(288deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(162deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-25 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-30 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(252deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(198deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-35 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(234deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(216deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-40 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(216deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(234deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-45 {
+  background-image: -webkit-linear-gradient(0deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(198deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #fff 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(252deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-50 {
+  background-image: -webkit-linear-gradient(180deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(-90deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-55 {
+  background-image: -webkit-linear-gradient(162deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(-72deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-60 {
+  background-image: -webkit-linear-gradient(144deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(-54deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-65 {
+  background-image: -webkit-linear-gradient(126deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(-36deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-70 {
+  background-image: -webkit-linear-gradient(108deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(-18deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-75 {
+  background-image: -webkit-linear-gradient(90deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(0deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-80 {
+  background-image: -webkit-linear-gradient(72deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(18deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-85 {
+  background-image: -webkit-linear-gradient(54deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(36deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-90 {
+  background-image: -webkit-linear-gradient(36deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(54deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-95 {
+  background-image: -webkit-linear-gradient(18deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(72deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #2B7C91 50%, #fff 50%, #fff);
+}
+
+.progress-100 {
+  background-image: -webkit-linear-gradient(0deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #2B7C91 50%, #fff 50%, #fff);
+  background-image: linear-gradient(90deg, #2B7C91 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #38b16b 50%, #fff 50%, #fff);
+}
+
+
+
+
+/*FLECHES*/
+
+.fleche {
+    position: relative;
+    background: #2B7C91;
+  height: 28px;
+  width: 80px;
+  margin-top: 50px;
+  
+}
+
+.fleche:after {
+  left: 100%;
+    top: 270%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #2B7C91;
+    border-width: 14px;
+    margin-top: -75px;
+}
+
+
+/*FLECHES*/
+
+.rond {
+ width:20px;
+ height:20px;
+ border-radius:50%;
+ background: #3F3F3F;
+ margin-left:105%;
+ margin-top: -27%;
+}
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 15%;
+
+}

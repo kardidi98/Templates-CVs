@@ -1,0 +1,205 @@
+
+ 
+
+
+body {
+   
+    
+     background: black;
+    font-size: 16px; 
+    font-family: 'Lato', helvetica, arial, sans-serif;
+
+    
+}
+
+.globalcontainer{
+    background-color: #FFFFFF;
+  vertical-align: center;
+  color: #333;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.sidecontainer{
+    margin-left: 20px;
+}
+
+.titles{
+    color: #010101;
+}
+ 
+.fullname{
+    font-size: 70px;
+}
+
+.lastname{
+     color: #ECD9C1; 
+}
+.firstname{
+   
+    font-size: 90px;
+}
+ 
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+.content {
+    margin-top: 430px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+#loisirs li{
+ font-size: 20px;
+}
+#References li{
+ font-size: 19px;
+}
+
+.name_fct_contact{
+    
+    
+    position: relative;
+    z-index: 2;
+    margin-top: -140px;
+
+
+}
+
+.name_fct{
+    background-color: rgba(112, 187, 216, 0.7);
+    margin-left: 15px;
+    padding: 20px;
+}
+
+
+ .email{
+    
+    color: #444;
+ }
+
+ .email:hover{
+    text-decoration: none;
+    color: #444;
+ }
+ 
+
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+
+ 
+p.summary   {
+    margin: 10px 0px 0px 0px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #ECD9C1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 15px;
+        position: absolute;
+        left: 0;
+        width:100%;
+        border: 1px solid #ca3f3f;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+    
+    .competences .barres li span {
+        background: #ca3f3f;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 15px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        border: 1px solid #ca3f3f;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+
+
+
+
+
+#footer{
+   
+    text-align: center;
+}
+
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 9%;
+
+}
+
+.exppro{
+    text-align: right;
+}
+
+
+.icon{
+    background-color: #E8D7BD;
+    border: 1px solid #E8D7BD;
+    border-radius: 50%;
+}

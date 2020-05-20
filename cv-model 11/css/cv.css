@@ -1,0 +1,266 @@
+
+ 
+body {
+   
+ 
+    
+    font-size: 16px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #000;
+    
+}
+
+.globalcontainer{
+    background-color: #DADADA;
+  vertical-align: center;
+border-right: 1px solid black;
+
+
+}
+
+.titles{
+    color: #404040;
+    font-family: 'Arial';
+}
+
+
+.titles b{
+  font-style: italic;
+}
+
+
+
+.sidetitles{
+    color: #EFFBF3;
+    font-family: 'Arial';
+
+}
+
+.email:hover{
+    color: #EFFBF3;;
+}
+ 
+a:link { 
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ 
+a:visited { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+a:hover { 
+    text-decoration: underline;
+    color: #669933;
+    font-weight: bold;
+}
+ 
+a:active { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+#content {
+    background-color: #eee;
+    width: 960px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    margin: 25px 0px 25px 0px;
+    border: #fff solid 2px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+ 
+
+ 
+ 
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+ 
+p.bus1  {
+    margin: 0px;
+    font-weight: bold;
+    color: #669933;
+}
+ 
+p.edu-info  {
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+    color: #669933;
+}
+ 
+p.edu-info a    {
+    color: #000;
+}
+ 
+p.edu-info a:hover  {
+    color: #669933;
+}
+ 
+p.time  {
+    margin: 0px;
+}
+
+.summary   {
+   background-color: white;
+   padding: 20px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 13px;
+        left: 0;
+        background-color: 2px dotted #e1e1e1;
+        position: absolute;
+        width:100%;
+    }
+    
+    .competences .barres li span {
+        background: #516EA8;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 13px;
+        left: 0;
+        background-color: 2px dotted #516EA8;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+    }
+
+
+
+
+.icons{
+    font-size: 2em;
+    color: #A2C1C3;
+}
+
+
+
+
+body{
+  background-color: #f0f0f0;
+}
+.progress{
+  max-width:1000px;
+  margin: 40px auto;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress-radial, .progress-radial * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+}
+.progress-radial:first-child {
+  margin-left: 4%;
+}
+
+
+
+
+
+.rond {
+ width:20px;
+ height:20px;
+ border-radius:50%;
+ background: #3F3F3F;
+ margin-left:135%;
+
+}
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 15%;
+
+}
+
+.Loisirs{
+  font-size: 20px;
+}

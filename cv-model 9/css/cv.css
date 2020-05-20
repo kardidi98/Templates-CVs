@@ -1,0 +1,299 @@
+
+ 
+body {
+   
+ 
+    
+    font-size: 16px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #000;
+}
+
+.globalcontainer{
+    background: #fff;
+  vertical-align: center;
+
+
+
+}
+
+.section{
+    border-left: 4px dotted #333333;
+    border-bottom: 4px dotted #333333;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.sectionref{
+    border-left: 4px dotted #333333;
+    border-bottom: 4px dotted #333333;
+    
+   
+}
+
+.fullname{
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+
+}
+.titles {
+    color: #333333;
+    font-family: 'Arial';
+
+
+}
+
+
+.titles b{
+  font-style: italic;
+}
+
+
+
+.sidetitles{
+    color: black;
+    font-family: 'Arial';
+  }
+.Loisirs{
+    background-color: rgba(233, 119, 155, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+
+}
+.infobasiques{
+    background-color: rgba(119, 233, 155, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+}
+.outilsinfo{
+    background-color: rgba(119, 204, 233, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+}
+.Langue{
+    background-color: rgba(233, 208, 119, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+}
+
+.email:hover{
+    color: #EFFBF3;;
+}
+ 
+a:link { 
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+#content {
+    background-color: #eee;
+    width: 960px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    margin: 25px 0px 25px 0px;
+    border: #fff solid 2px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+
+
+.avatar{
+  margin-top: 50px;
+  
+  border: 15px solid white;
+  border-radius: 60%;
+  margin-bottom: 10px;
+}
+ 
+
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+ 
+p.bus1  {
+    margin: 0px;
+    font-weight: bold;
+    color: #669933;
+}
+ 
+
+p.summary   {
+    margin: 10px 0px 0px 0px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        border: 1px solid rgba(44, 118, 221, 0.57);
+       -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+        width:100%;
+    }
+    
+    .competences .barres li span {
+        background: rgba(44, 118, 221, 0.57);
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        border: 1px solid rgba(44, 118, 221, 0.57);
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+
+
+
+
+
+
+
+
+.progress{
+  max-width:1000px;
+  margin: 40px auto;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress-radial, .progress-radial * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+}
+.progress-radial:first-child {
+  margin-left: 4%;
+}
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  font-size: 14px;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress-radial .overlay p{
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    margin-top: -20px;
+}
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 13%;
+
+}
+
+.pourcentageOutilsInfo{
+   
+    color: #77cce9;
+
+}
+
+.pourcentageLangues{
+   
+    color: #e9d077;
+
+}
+
+.icons{
+  color: #cccccc;
+}

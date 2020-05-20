@@ -1,0 +1,264 @@
+
+ 
+body {
+   
+ 
+    
+    font-size: 16px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #000;
+}
+
+.globalcontainer{
+    background-color: #fff;
+  vertical-align: center;
+  
+
+}
+
+.profilimg{
+    margin-left: 5%;
+    border: 12px solid white;
+    margin-top: 20px;
+}
+
+.fullname{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.infoperso{
+    background-color: #F2EDE4;
+}
+
+.titles{
+    color: #2B7C91;
+    font-family: 'Arial';
+}
+
+
+.titles b{
+  font-style: italic;
+}
+
+
+
+.sidetitles{
+    color: #EFFBF3;
+    font-family: 'Arial';
+
+}
+
+
+.email:hover{
+    color: #5B5963;
+
+}
+ 
+a:link { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+a:visited { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+a:hover { 
+    text-decoration: underline;
+    color: #669933;
+    font-weight: bold;
+}
+ 
+a:active { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+#content {
+    background-color: #eee;
+    width: 960px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    margin: 25px 0px 25px 0px;
+    border: #fff solid 2px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+ 
+/* Header
+--------------------------------------------------- */
+header{
+    background-color: #5B5963;
+    position: absolute;
+  z-index: 0;
+    height: 15%;
+    width: 100%;
+}
+
+.main{
+    margin-top: 200px;
+    margin-left: 3%;
+}
+ 
+.infoperso{
+    position: relative;
+    z-index: 1;
+}
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+ 
+.summary   {
+   
+ }
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 13px;
+        position: absolute;
+        left: 0;
+        width:100%;
+        border: 1px solid #5B5963;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+    
+    .competences .barres li span {
+        background: #5B5963;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 13px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        border: 1px solid #5B5963;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+
+
+
+
+.icons{
+    font-size: 2em;
+    color: #A2C1C3;
+}
+
+.section1{
+    
+    margin-top: 0;
+}
+.section2{
+    position: relative;
+    margin-top: 400px;
+}
+
+
+.progress{
+  max-width:1000px;
+  margin: 40px auto;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress-radial, .progress-radial * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+}
+.progress-radial:first-child {
+  margin-left: 4%;
+}
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 15%;
+
+}
+

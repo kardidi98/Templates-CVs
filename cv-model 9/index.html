@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta charset="utf-8">
+ 
+<title>Online Resume of Your Name</title>
+
+
+
+<!-- Stylesheet -->
+<script type="text/javascript" src="js/js.js"></script>
+
+<link rel="stylesheet" media="screen and (min-width:481px)" href="css/cv.css">
+
+
+
+  <!-- ICON  font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<!-- Meta -->
+<meta name="description" content="A few lines about yourself">
+<meta name="keywords" content="web,developer,designer,resume" />
+<meta name="author" content="Your Name">
+ 
+
+
+<!--  bootstrap js -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+
+	  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ 
+
+
+
+ <style>
+@media only screen and (max-width: 1300px){
+
+.globalcontainer{
+    background: #fff;
+  vertical-align: center;
+
+
+
+}
+
+.section{
+    border-left: 4px dotted #333333;
+    border-bottom: 4px dotted #333333;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.sectionref{
+    border-left: 4px dotted #333333;
+    border-bottom: 4px dotted #333333;
+    
+   
+}
+
+.fullname{
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+
+}
+.titles {
+    color: #333333;
+    font-family: 'Arial';
+
+
+}
+
+
+.titles b{
+  font-style: italic;
+}
+
+
+
+.sidetitles{
+    color: black;
+    font-family: 'Arial';
+  }
+.Loisirs{
+    background-color: rgba(233, 119, 155, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+
+}
+.infobasiques{
+    background-color: rgba(119, 233, 155, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+}
+.outilsinfo{
+    background-color: rgba(119, 204, 233, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+}
+.Langue{
+    background-color: rgba(233, 208, 119, 0.35);
+    font-family: 'Arial';
+   padding: 20px;
+}
+
+.email:hover{
+    color: #EFFBF3;;
+}
+ 
+a:link { 
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+#content {
+    background-color: #eee;
+    width: 960px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    margin: 25px 0px 25px 0px;
+    border: #fff solid 2px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+
+
+.avatar{
+  margin-top: 50px;
+  
+  border: 15px solid white;
+  border-radius: 60%;
+  margin-bottom: 10px;
+}
+ 
+
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+ 
+p.bus1  {
+    margin: 0px;
+    font-weight: bold;
+    color: #669933;
+}
+ 
+
+p.summary   {
+    margin: 10px 0px 0px 0px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        border: 1px solid rgba(44, 118, 221, 0.57);
+       -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+        width:100%;
+    }
+    
+    .competences .barres li span {
+        background: rgba(44, 118, 221, 0.57);
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        border: 1px solid rgba(44, 118, 221, 0.57);
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+
+
+
+
+
+.progress{
+  max-width:1000px;
+  margin: 40px auto;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress-radial, .progress-radial * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+}
+.progress-radial:first-child {
+  margin-left: 4%;
+}
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  font-size: 14px;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress-radial .overlay p{
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    margin-top: -20px;
+}
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 0;
+
+}
+.pourcentageOutilsInfo{
+   
+    color: #77cce9;
+
+}
+
+.pourcentageLangues{
+   
+    color: #e9d077;
+
+}
+
+.icons{
+  color: #cccccc;
+}
+
+.col-sm-1 {width: 8.33%;}
+.col-sm-2 {width: 16.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+}
+
+
+
+	@media only screen and (max-width: 768px){
+    body{
+
+     transform: scale(0.38); 
+     
+    }
+   
+  
+
+ .globalcontainer{
+	margin-left: -305px;
+/*	margin-top: 125px;*/
+	left: 0;
+	position: absolute; 
+	
+
+}
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 768px){
+    body{
+
+     transform: scale(0.80); 
+     
+    }
+   
+
+ .globalcontainer{
+	margin-left: -100px;
+	position: absolute; 
+	
+  	left: 0;
+
+}
+}
+@media only screen and (width: 768px) and (height: 1024px){
+    body{
+
+     transform: scale(0.80); 
+     
+    }
+
+
+ .globalcontainer{
+	margin-left: -100px;
+	position: absolute; 
+	
+  	left: 0;
+
+}
+}
+
+
+
+ </style>
+
+
+</head>
+<body >
+ 
+<div class="globalcontainer center"  valign="center" style="width: 1000px;">
+	
+
+<div class="row " >
+
+<!-- section1 -->
+	<div class="col-sm-4" style="border-right: 1px solid black; background-color: rgba(194, 241, 172, 0.35);margin-left: 15px;">
+		<div class="row ">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10 ">
+				<img class="avatar" src="Images/avatar.jpg" width="250" height="250" alt="Your Name" />
+			</div>
+
+			
+		</div>
+		<div class="clear">&nbsp;</div>
+<h4 class=" sidetitles infobasiques"><em>INFORMATIONS BASIQUES</em></h4>
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+			<section id="contact">	
+ 	 			
+ 	 		<div class="row">
+ 	 			<div class="col-sm-2">
+ 	 				<i class="fa fa-map-marker fa-2x"></i>
+ 	 			</div>
+ 	 			<div class="col-sm-10">
+ 	 				<p class="sidetitles">555 Street Address, Toledo, Ohio, 43606  U.S.A.</p>
+ 	 			</div>
+ 	 		</div>	
+
+ 	 		<div class="row">
+ 	 			<div class="col-sm-2">
+ 	 				<i class="fa fa-phone fa-2x"></i>
+ 	 			</div>
+ 	 			<div class="col-sm-10">
+ 	 				<p class="phone sidetitles">(000) 000-0000</p>
+ 	 			</div>
+ 	 		</div>
+
+ 	 		<div class="row">
+ 	 			<div class="col-sm-2">
+ 	 				<i class="fa fa-envelope fa-2x "></i>
+ 	 			</div>
+ 	 			<div class="col-sm-10">
+ 	 				<p ><a href="#" class="email sidetitles" >your-email@gmail.com</a></p>
+
+ 	 			</div>
+ 	 		</div>
+			
+		
+
+			</section>
+						
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<div class="clear">&nbsp;</div>
+		<h4 class=" sidetitles Langue"><em>LANGUES</em></h4>
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10 competences sidetitles">
+				<div class="row">
+					<div class="col-sm-9">
+						<span>Arabe</span>
+					</div>
+					<div class="col-sm-3 pourcentageLangues">
+						<b>90 %</b>
+					</div>
+				</div>	
+			 
+			   	<ul class="barres">
+					
+					<li data-skills="80"><span style="width: 90%;"></span></li>
+				</ul>
+				<br>
+				<div class="row">
+					<div class="col-sm-9 ">
+						<span>Français</span>
+					</div>
+					<div class="col-sm-3 pourcentageLangues">
+						<b>80 %</b>
+					</div>
+				</div>	
+				
+				<ul class="barres">
+					
+					<li data-skills="80"><span style="width: 80%;"></span></li>
+				</ul>
+				<br>
+				<div class="row">
+					<div class="col-sm-9">
+						<span>Anglais</span>
+					</div>
+					<div class="col-sm-3 pourcentageLangues">
+						<b>60 %</b>
+					</div>
+				</div>		
+					
+
+				<ul class="barres">
+					<li data-skills="80"><span style="width: 60%;"></span></li>
+				</ul>
+				
+				<br>
+			</div>
+		</div>	
+		<div class="clear">&nbsp;</div>
+			<h4 class=" sidetitles outilsinfo"><em>OUTILS INFORMATIQUES</em></h4>
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10 competences sidetitles">
+				<div class="row">
+					<div class="col-sm-9">
+						<span>Microsoft Word</span>
+					</div>
+					<div class="col-sm-3 pourcentageOutilsInfo">
+						<b>90 %</b>
+					</div>
+				</div>
+			 
+			   	<ul class="barres">
+					
+					<li data-skills="80"><span style="width: 90%;"></span></li>
+				</ul>
+				<br>
+				<div class="row">
+					<div class="col-sm-9">
+						<span>Microsoft Excel</span>
+					</div>
+					<div class="col-sm-3 pourcentageOutilsInfo">
+						<b>80 %</b>
+					</div>
+				</div>
+				
+				<ul class="barres">
+					
+					<li data-skills="80"><span style="width: 80%;"></span></li>
+				</ul>
+				<br>
+				<div class="row">
+					<div class="col-sm-9">
+						<span>Worldperfect</span>
+					</div>
+					<div class="col-sm-3 pourcentageOutilsInfo">
+						<b>60 %</b>
+					</div>
+				</div>	
+					
+
+				<ul class="barres">
+					<li data-skills="80"><span style="width: 60%;"></span></li>
+				</ul>
+				
+				<br>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<div class="clear">&nbsp;</div>
+		<h4 class=" sidetitles Loisirs"><em>CENTRES D'INTERET</em></h4>
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10 competences sidetitles">
+			
+			   	<ul >
+					<li>
+						Sport
+					</li>
+					<li>
+						Lecture
+					</li>
+					<li>
+						Photographie
+					</li>
+					
+				</ul>
+				
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<div class="clear">&nbsp;</div>
+	</div>
+	<!-- /section1 -->
+<!-- section2 -->
+
+
+	<div class="col-sm-7" >
+		
+	<div class="clear">&nbsp;</div>
+		
+		<div class="row fullname"  style="background-image: url('Images/maxresdefault.jpg');">
+ 	 			
+ 	 			<div class="col-sm-12">
+ 	 				<div class="text-center" >
+ 	 				<h1><span style="font-size: 70px;" >MILISA HOWE</span></h1>
+ 	 		<h6 ><b>freelance writer / Editor</b></h6>
+ 	 			</div>
+ 	 			</div>
+ 	 	</div>
+ 	 	<div class="clear">&nbsp;</div>
+		<!-- PROFIL -->
+			<section class="summary titles">
+				<div>
+					<div class="row">
+						<div class="col-sm-11"><h3 class="titles"><em>PROFILE</em></h3></div>
+						<div class="col-sm-1">
+						<i class="fa fa-user-o fa-3x icons"></i>
+					</div>
+					</div>
+					
+				<br>
+			<div class="section">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.	</div>
+			
+				</div>
+			
+			</section>
+<div class="clear">&nbsp;</div>
+			<!-- /PROFIL -->
+
+			<!-- EXPERIENCE PRO -->
+	<section class="summary">
+			<div class="row">
+		
+		<div class="col-sm-12" >
+			<div class="row">
+						<div class="col-sm-11"><h3 class="titles"><em>EXPERIENCES PROFESSIONNELLES</em></h3></div>
+						<div class="col-sm-1">
+						<i class="fa fa-suitcase fa-3x icons"></i>
+					</div>
+					</div>
+			<br>
+			<div class="section">
+				
+				<div style="color: rgba(221, 44, 203, 0.57);"><b>MUSE MAGAZINE : </b><b>2014</b></div>
+				<div class="top titles"><b>SENIOR WRITER </b></div>
+			
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			</div>
+			</div>
+			<br>
+			<div class="section">
+				
+				<div style="color: rgba(221, 44, 203, 0.57);"><b>MUSE MAGAZINE : </b><b>2010</b></div>
+				<div class="top titles"><b>SENIOR WRITER </b></div>
+			
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			</div>
+			</div>
+			
+	
+		</div>
+	</section>
+
+			<!-- /EXPERIENCE PRO -->
+<div class="clear">&nbsp;</div>
+			<!-- FORMATION -->
+	<section class="summary">
+			<div class="row">
+		
+		<div class="col-sm-12" >
+			<div class="row">
+						<div class="col-sm-11"><h3 class="titles"><em>FORMATION</em></h3></div>
+						<div class="col-sm-1">
+						<i class="fa fa-mortar-board fa-3x icons"></i>
+					</div>
+				</div>
+			<br>
+			<div class="section">
+				
+				<div style="color: rgba(221, 44, 203, 0.57);"><b>MUSE MAGAZINE : </b><b>2014</b></div>
+				<div class="top titles"><b>SENIOR WRITER </b></div>
+			
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			</div>
+			</div>
+			<br>
+			<div class="section">
+				
+				<div style="color: rgba(221, 44, 203, 0.57);"><b>MUSE MAGAZINE : </b><b>2010</b></div>
+				<div class="top titles"><b>SENIOR WRITER </b></div>
+			
+			
+			<div>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			</div>
+			</div>
+			
+		</div>
+		</div>
+	</section>
+
+	<!-- /FORMATION -->
+
+<div class="clear">&nbsp;</div>
+<!-- BEGIN REFERENCES SECTION -->
+	
+ 			<section id="References">	
+ 	 			<div class="row">
+						<div class="col-sm-11"><h3 class="titles"><em>REFERENCES</em></h3></div>
+						<div class="col-sm-1">
+						<i class="fa fa-chain fa-3x icons"></i>
+					</div>
+				</div>
+ 	 			<br>
+ 	 			<div class="row">
+ 	 				<div class="col-sm-1"> </div>
+ 	 				<div class="col-sm-5 sectionref">
+ 	 					<ul>
+							<li>
+								<div>
+									<div>
+										Nom & Prénom.
+									</div>
+									<div>
+										Entreprise.
+									</div>
+									<div>
+										CEO.
+									</div>
+									<div>
+										<b>T :</b> 000 000 000 0
+									</div>
+									<div>
+										<b>E :</b> adresse-mail@gmail.com
+									</div>
+								</div>
+							</li>
+							<br>
+							
+							
+						</ul>
+ 	 				</div>
+ 	 				<div class="col-sm-1"> </div>
+ 	 				<div class="col-sm-5 sectionref">
+ 	 					<ul>
+							<li>
+								<div>
+									<div>
+										Nom & Prénom.
+									</div>
+									<div>
+										Entreprise.
+									</div>
+									<div>
+										CEO.
+									</div>
+									<div>
+										<b>T :</b> 000 000 000 0
+									</div>
+									<div>
+										<b>E :</b> adresse-mail@gmail.com
+									</div>
+								</div>
+							</li>
+							<br>
+							
+							
+						</ul>
+ 	 				</div>
+ 	 			</div>
+ 	 			<br>
+ 	 			
+			
+			
+
+			</section>
+
+<!-- END REFERENCES SECTION -->
+<div class="clear">&nbsp;</div>
+	</div>
+	<!-- /section2 -->
+
+</div>
+
+
+
+ </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+
+
+@media screen{
+  body {
+   
+    
+    
+    font-size: 16px; 
+    font-family: 'Lato', helvetica, arial, sans-serif;
+    
+}
+
+.globalcontainer{
+    background-color: #FAFAFA;
+  vertical-align: center;
+  color: #333;
+
+
+}
+
+.titles{
+    color: #70BBD8;
+}
+ 
+
+ 
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+.content {
+    margin-top: 430px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+ 
+/* Header
+--------------------------------------------------- */
+header{
+  
+    position: absolute;
+    z-index: 0;
+    
+}
+.name_fct_contact{
+    
+    
+    position: relative;
+    z-index: 2;
+    margin-top: -140px;
+
+
+}
+
+.name_fct{
+    background-color: rgba(112, 187, 216, 0.7);
+    margin-left: 15px;
+    padding: 20px;
+}
+
+#contact-details .header_1 {
+    float: left;
+    width: 350px;
+    text-align: center;
+    margin: 40px 0px 0px 20px;
+    
+    position: relative;
+    z-index: 1;
+    
+}
+ 
+#contact-details .header_1 img {
+    border: #fff solid 4px;
+   
+    padding: 16px;
+    margin: 10px 0px 0px 0px;
+    margin-left: 0;
+    
+
+}
+ 
+#contact-details .header_2 {
+    float: left;
+    width: 570px;
+    margin: 40px 0px 0px 10px;
+   
+}
+ 
+#contact-details .header_2 a {
+    font-weight: normal;
+}
+ 
+#contact-details  h1    {
+   /* margin: 0px 0px 0px 20px;*/
+    font-size: 52px;
+    font-weight: bold;
+}
+ 
+#contact-details  h3    {
+    margin: 0px 0px 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+ 
+#contact-details ul.info_1  {
+    list-style: none;
+    margin: 0px 0px 0px -12px;
+    font-size: 18px;
+}
+ 
+#contact-details ul.info_2  {
+    list-style: none;
+    margin: 0px 0px 15px -12px;
+    font-size: 18px;
+}
+ 
+
+ .email{
+    
+    color: #444;
+ }
+
+ .email:hover{
+    text-decoration: none;
+    color: #444;
+ }
+ 
+ 
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+
+ 
+p.summary   {
+    margin: 10px 0px 0px 0px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        width:100%;
+        border: 1px solid #3585fd;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+    
+    .competences .barres li span {
+        background: #3585fd;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 10px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        border: 1px solid #3585fd;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+
+
+
+
+
+#footer{
+   
+    text-align: center;
+}
+
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 9%;
+
+}
+
+.exppro{
+    text-align: right;
+}
+
+
+.icon{
+    background-color: rgba(112, 187, 216, 1);
+    color: white;
+    padding: 10px; 
+}
+
+#References{
+    margin-left: 30px;
+}  
+}
+
+
+ 

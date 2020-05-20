@@ -1,0 +1,219 @@
+
+
+
+   
+  body {
+   
+    background-color: #fff;
+    font-size: 16px; 
+    
+    
+}
+
+
+.globalcontainer{
+    background-color: #EFF3F6;
+  vertical-align: center;
+  margin-top: -15px;
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.titles{
+    color: #474548;
+}
+ 
+.secondepart{
+    margin-left: 20px;
+}
+
+.ref{
+    border: 1px solid #474548;
+    border-radius: 7%;
+    color: black;
+}
+ 
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+.content {
+    margin-top: 80px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+ 
+ 
+/* Header
+--------------------------------------------------- */
+header{
+    background-color:#fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.avatar img{
+    border: 10px solid #70747D;
+    border-radius: 50%;
+}
+.fullname{
+    font-size: 60px;
+}
+
+ 
+
+ .email{
+    
+    color: black;
+ }
+
+ .email:hover{
+    text-decoration: none;
+    color: #70747D;
+ }
+ 
+ 
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+
+ 
+p.summary   {
+    margin: 10px 0px 0px 0px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: '';
+        display: block;
+        height: 10px;
+        position: absolute;
+        width:100%;
+        left: 0;
+        border: 1px solid #3F3F3F;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+    
+    .competences .barres li span {
+        background: #3F3F3F;
+        bottom: -4px;
+        content: '';
+        display: block;
+        height: 10px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        border: 1px solid #3F3F3F;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+
+
+
+
+
+#footer{
+   
+    text-align: center;
+}
+
+
+
+
+.center {
+  
+  position: absolute;
+  left: 9%;
+
+}
+
+.exppro{
+    text-align: right;
+}
+
+
+.icon{
+    
+    color: #70747D;
+     
+}
+
+#References{
+    margin-left: 30px;
+}  
+
+.rond {
+ width:15px;
+ height:15px;
+ border-radius:50%;
+ background: #3F3F3F;
+ margin-left:109%;
+ margin-top: -50%;
+}
+
+
+
+
+ 

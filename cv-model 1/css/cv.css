@@ -1,0 +1,613 @@
+/**********
+/* Grille - 960.gs
+**********/
+.container_16 {
+	max-width: 960px;
+	width: 92%;
+	margin: 0 auto;
+}
+.grid_6,
+.grid_8,
+.grid_4,
+.grid_10,
+.grid_16 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.container_16 .grid_6 {
+	width:35.5%;
+}
+
+.container_16 .grid_8 {
+	width:48.0%;
+}
+
+.container_16 .grid_10 {
+	width:60.5%;
+}
+
+.container_16 .grid_16 {
+	width:98.0%;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+.globalcontainer{
+
+  vertical-align: center;
+
+
+
+}
+
+
+/**********
+/* Header
+**********/
+	header[role=banner] {
+		
+		border-bottom:0px solid #fff;
+		
+		overflow: hidden;
+		
+
+		
+
+	}
+	
+	header figure {
+		text-align: center;
+		border-radius: 78px;
+		float: right;
+		height: 156px;
+		width: 156px;
+		margin-top: 5%;
+		border: 4px solid #d7d7d7;
+		margin-right: 8%;
+	}
+	
+	header figure img {
+		border-radius: 50%;
+		height: 250px;
+		position: relative;
+		width: 250px;
+
+	}
+	
+	header hgroup {
+		float: left;
+		padding: 42px 0;
+		
+	}
+	
+	header hgroup h1 {
+		color:#333;
+		
+		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+		text-align: center;
+		font-style: italic;
+	}
+	
+	header hgroup h2 {
+		color:#cecece;
+		font-style: italic;
+		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+
+	}
+	header hgroup h4 {
+		color:#333;
+		
+		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+		
+	}
+
+/************
+/* Contact
+************/
+	::-webkit-input-placeholder  { color:#333; }
+	input:-moz-placeholder { color:#333; }
+	.placeholder { color: #333; }
+
+	.contactform {
+		background-color: rgba(72, 219, 89, 0.42);
+		color: #333;
+		display: none;
+
+	}
+	
+	.contactform > div {
+		padding: 21px 0;
+	}
+	
+	.contactform input[type=text], .contactform input[type=email], .contactform textarea {
+		background: rgba(72, 219, 89, 0.6);
+		border: 1px solid #226d85;
+		border-radius: 2px;
+		color: #333;
+		max-width: 100%;
+		opacity: .7;
+		padding: 10px 10px 9px 10px;
+		margin-top: 0;
+		position: relative;
+		vertical-align: top;
+		width: 100%;
+	}
+	
+	.contactform input[type=text], .contactform input[type=email] {
+		margin-bottom: 21px;
+	}
+	
+	.contactform textarea {
+		
+		font-size: 14px;
+		height: 148px;
+	}
+	
+	.contactform input[type=text]:focus, .contactform input[type=email]:focus, .contactform textarea:focus {
+		border: 1px solid #226d85;
+		opacity: 1;
+		outline: none;
+		-webkit-transition: opacity 1s;
+	}
+	
+	.contactform input[type=submit] {
+		background: #ff9f39;
+		border: 1px solid #ff9f39;
+		border-radius: 2px;
+		color: #fff;
+		cursor: pointer;
+		font-weight: bold;
+		font-size: 14px;
+		margin: 0;
+		padding: 10px 10px 9px 10px;
+		width: 100%;
+	}
+	
+	.contactform input.error, .contactform textarea.error {
+		border: 1px solid red;
+	}
+	
+	.contactform label.error {
+		display: none !important;
+	}
+
+	/***********************
+	/* Message du formulaire
+	***********************/
+		.messageform { 
+			display: none; /* Affiché via jQuery */ 
+			border-radius: 2px; 
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 17px;
+			padding:10px 10px 9px 10px; 
+			margin: 0;
+			text-align: center;
+			width: 100%; 
+		}
+		.envoi-valid, .envoi-error { 
+			display: inline-block; 
+		 }
+		.envoi-valid { 
+			background-color: #31D869;
+			border:1px solid #108D3A; 
+			color: #108D3A;
+		}
+		.envoi-error { 
+			background-color: #FF5839;
+			border:1px solid #A62913; 
+			color: #A62913;
+		}
+		.envoi-error a {
+			color: #A62913;
+			text-decoration: underline;
+		}
+		
+
+/***************
+/* Corps - Main
+***************/
+	section[role=main] {
+		padding: 21px 0;
+		overflow: hidden;
+	}
+	
+	section[role=main] > div {
+		margin-top: 63px;
+	}
+	
+	section[role=main] h3 {
+		border-bottom: 2px solid rgba(72, 219, 89, 0.89);
+		padding: 0 0 20px 60px;
+		/*margin-top: 0px;*/
+		text-align: center;
+		position: relative;
+		text-align: center;
+		/*background: rgba(72, 219, 89, 0.89);*/
+
+ 	}
+	
+	section[role=main] h3:after, h3:before {
+		
+		display: block;
+		height: 50px;
+		left: 0;
+		position: absolute;
+		top: -15px;
+		width: 50px;
+	}
+	
+	section[role=main] h3:before {
+		background-color: #33a4c9;
+		border-radius: 25px;
+	}
+	
+		/***************
+		/* Pictos titres
+		***************/
+		
+		section[role=main] h3:after {
+			background:url('../img/pictos-titre.png') no-repeat 11px 10px;
+		}
+		
+		section[role=main] .competences h3:after {
+			background-position: 11px -34px;
+		}
+	
+		section[role=main] .experiences h3:after {
+			background-position: 11px -86px;
+		}
+		
+		section[role=main] .formations h3:after {
+			background-position: 10px -139px;
+		}
+		
+		section[role=main] .loisirs h3:after {
+			background-position: 10px -250px;
+		}
+		
+		section[role=main] .contact h3:after {
+			background-position: 11px -194px;
+		}
+	
+	
+	.experiences ul, .formations ul {
+		margin-left: 60px;
+	}
+	
+	section[role=main] h4 {
+		margin-bottom: 0px;
+	}
+	
+	section[role=main] h4 strong {
+		color: #147393;
+		font-weight: normal;
+	}
+	
+	.experiences li, .formations li {
+		margin-bottom: 63px;
+	}
+	
+	.experiences li:last-child, .formations li:last-child {
+		margin-bottom: 21px;
+	}
+	
+	.experiences li p, .formations li p {
+		margin-left: 30px;
+		border-top: 2px dotted rgba(72, 219, 89, 0.89);
+	}
+	
+	/**********************************************
+	/* Affichage des compétences sous forme de tags
+	**********************************************/
+	.competences .tags li {
+		background-color:#33a4c9;
+		border:1px solid #1b91b7;
+		border-radius: 15px;
+		color:#fff;
+		display: inline-block;
+		line-height: 13px;
+		margin: 0 7px 17px 0;
+		padding: 5px 10px;
+	}
+	
+	
+
+	
+	/***********
+	/* Pictos
+	***********/
+	.lieu, .dates, .phone, .mail, .site, .form, .twitter, .facebook, .dribbble, .skype {
+		
+		padding-left: 25px;
+		margin: 0 10px 1px 10px;
+	}
+	
+	.lieu {
+		background-position: 0 -2px;
+		color: #999;
+	}
+	
+	.dates {
+		background-position: 0 -22px;
+		color: #999;
+	}
+	
+	.phone {
+		background-position: 0 -40px;
+	}
+	
+	.mail {
+		background-position: 0 -58px;
+	}
+	
+	.site {
+		background-position: 0 -80px;
+	}
+	
+	.form {
+		background-position: 0 -100px;
+	}
+	
+	.twitter {
+		background-position: 0 -122px;
+	}
+	
+	.facebook {
+		background-position: 0 -140px;
+	}
+	
+	.dribbble {
+		background-position: 0 -160px;
+	}
+	
+	.skype {
+		background-position: 0 -180px;
+	}
+
+
+/*Competences*/
+
+	.progress {
+  width: 90px;
+  height: 90px;
+  line-height: 150px;
+  background: none;
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative;
+}
+.progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress .progress-left {
+  left: 0;
+}
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 7px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+  border-color: #48db59;
+}
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+.progress .progress-right {
+  right: 0;
+}
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+.progress .progress-value {
+  display: flex;
+  border-radius: 50%;
+  font-size: 36px;
+  text-align: center;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 300;
+}
+.progress .progress-value div {
+  /*margin-top: 10px;*/
+  font-size: 25px;
+}
+.progress .progress-value span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* This for loop creates the 	necessary css animation names 
+Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+*/
+.progress[data-percentage="10"] .progress-right .progress-bar {
+  animation: loading-1 1.5s linear forwards;
+}
+.progress[data-percentage="10"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="20"] .progress-right .progress-bar {
+  animation: loading-2 1.5s linear forwards;
+}
+.progress[data-percentage="20"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="30"] .progress-right .progress-bar {
+  animation: loading-3 1.5s linear forwards;
+}
+.progress[data-percentage="30"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="40"] .progress-right .progress-bar {
+  animation: loading-4 1.5s linear forwards;
+}
+.progress[data-percentage="40"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="50"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="50"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="60"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="60"] .progress-left .progress-bar {
+  animation: loading-1 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="70"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="70"] .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="80"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="80"] .progress-left .progress-bar {
+  animation: loading-3 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="90"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="90"] .progress-left .progress-bar {
+  animation: loading-4 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="100"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="100"] .progress-left .progress-bar {
+  animation: loading-5 1.5s linear forwards 1.5s;
+}
+
+
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(36);
+    transform: rotate(36deg);
+  }
+}
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(72);
+    transform: rotate(72deg);
+  }
+}
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(108);
+    transform: rotate(108deg);
+  }
+}
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144);
+    transform: rotate(144deg);
+  }
+}
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180);
+    transform: rotate(180deg);
+  }
+}
+.progress {
+  margin-bottom: 1em;
+}
+
+/*Competences*/
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 15%;
+
+}

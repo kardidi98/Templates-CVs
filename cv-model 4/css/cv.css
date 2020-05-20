@@ -1,0 +1,274 @@
+
+ 
+body {
+   
+ 
+    
+    font-size: 16px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #000;
+}
+
+.globalcontainer{
+    background-color: #fff;
+  vertical-align: center;
+  border-right: 1px solid black;
+
+
+}
+.avatar{
+  margin-left: 120px;
+}
+
+.titles{
+    color: #1F2E35;
+    font-family: 'Arial';
+
+}
+
+
+.titles b{
+  font-style: italic;
+}
+
+
+
+.sidetitles{
+    color: #EFFBF3;
+    font-family: 'Arial';
+
+}
+
+.email:hover{
+    color: #EFFBF3;;
+}
+ 
+a:link { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+a:visited { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+a:hover { 
+    text-decoration: underline;
+    color: #669933;
+    font-weight: bold;
+}
+ 
+a:active { 
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+}
+ 
+#wrapper    {
+    width: 965px;
+    margin: 0 auto; 
+}
+ 
+#content {
+    background-color: #eee;
+    width: 960px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    margin: 25px 0px 25px 0px;
+    border: #fff solid 2px;
+}
+ 
+.clear  {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+/* Main Content
+--------------------------------------------------- */
+ 
+h2.top  {
+    margin: 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+h2  {
+    margin: 40px 0px 0px 0px; 
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+
+ 
+p.bus1  {
+    margin: 0px;
+    font-weight: bold;
+    color: #669933;
+}
+ 
+
+p.summary   {
+    margin: 10px 0px 0px 0px;
+}
+ 
+ 
+#skills ul.list1    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px -40px;
+    width: 220px;
+}
+ 
+#skills ul.list2    {   
+    float: left;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+}
+ 
+#skills li {
+    background: url("../images/bullet_green.png") no-repeat;
+    background-position: 0px 2px;
+    padding: 0px 0px 0px 25px;
+}
+ 
+abbr    {
+    border-width: 0px;
+}
+ 
+ 
+
+    /************************************************
+    /* Affichage des compétences sous forme de barres
+    *************************************************/
+    .competences .barres li {
+        margin-bottom: 25px;
+        position: relative;
+        list-style: none;
+        
+    }
+    
+    .competences .barres li:after {
+        background: #e1e1e1;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 10px;
+        left: 0;
+        position: absolute;
+        border: 1px solid #e1e1e1;
+       -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+        width:100%;
+    }
+    
+    .competences .barres li span {
+        background: #1F2E35;
+        bottom: -4px;
+        content: ' ';
+        display: block;
+        height: 10px;
+        left: 0;
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        border: 1px solid #1F2E35;
+        -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+    }
+
+
+
+
+.icons{
+  background-color: #1F2E35;
+  border: 1px solid #1F2E35;
+  border-radius: 50%;
+
+
+}
+
+
+.sousicons{
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #1F2E35;
+  
+
+}
+.progress{
+  max-width:1000px;
+  margin: 40px auto;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress-radial, .progress-radial * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+}
+.progress-radial:first-child {
+  margin-left: 4%;
+}
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  font-size: 14px;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress-radial .overlay p{
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    margin-top: -20px;
+}
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 13%;
+
+}
+
+.pourcentage{
+   
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+
+}
